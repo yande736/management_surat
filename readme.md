@@ -23,13 +23,13 @@ Sistem Manajemen Surat adalah aplikasi web yang dirancang untuk mengelola surat 
 1. **Clone repositori ini:**
 
    ```bash
-   git clone https://github.com/yande736/manejemen_surat.git
+   git clone https://github.com/yande736/management_surat.git
    ```
 
 2. **Navigasi ke direktori proyek:**
 
    ```bash
-   cd manejemen_surat
+   cd management_surat
    ```
 
 3. **Instal dependensi dengan Composer:**
@@ -74,7 +74,7 @@ Sistem Manajemen Surat adalah aplikasi web yang dirancang untuk mengelola surat 
 2. **Akses aplikasi melalui browser:**
 
    ```bash
-   http://localhost/manejemen_surat
+   http://localhost/management_surat
    ```
 
 3. **Login ke aplikasi:**
