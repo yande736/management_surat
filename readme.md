@@ -1,3 +1,14 @@
+<!-- dibuat oleh
+I Gede Rino Saputra
+A.A Sagung Mas Pradnya Praniswari
+I Gusti Ajung Bagus Ogastya Avatara Rayna
+I Wayan Adit Saputra
+Ni Putu Satiya Pramita Sari
+I Gede Bagus Agastya Mahadipta
+I Made Wira Wardana
+I Komang Lanag Adiwijaya
+-->
+
 # Sistem Manajemen Surat
 
 Sistem Manajemen Surat adalah aplikasi web yang dirancang untuk mengelola surat masuk dan keluar, dengan fitur untuk mengunggah, mengedit, menghapus, dan mengesahkan surat. Aplikasi ini juga menyediakan fitur paginasi untuk mengelola tampilan surat yang panjang.
@@ -126,3 +137,6 @@ Menampilkan maksimal 5 surat per halaman dengan paginasi:
 ## Kontribusi
 
 Kontribusi sangat diterima! Silakan fork repositori ini dan ajukan pull request dengan perubahan Anda.
+
+<!-- INSTITUT TEKNOLOGI DAN BISNIS STIKOM BALI -->
+<!-- 2024 -->
