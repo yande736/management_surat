@@ -5,7 +5,7 @@ Sistem Manajemen Surat adalah aplikasi web yang dirancang untuk mengelola surat 
 ## Fitur Utama
 
 - **Autentikasi**: Login untuk admin dan pengguna.
-- **Manajemen Surat**: Tambah, edit, hapus, dan setujui surat.
+- **Manajemen Surat**: Tambah, hapus, dan setujui surat.
 - **Upload File**: Mengunggah surat dengan drag-and-drop menggunakan Dropzone.js.
 - **Paginasi**: Menampilkan surat dengan paginasi untuk mempermudah navigasi.
 - **Dashboard Terpisah**: Dashboard untuk admin dan pengguna dengan hak akses berbeda.
