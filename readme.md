@@ -17,14 +17,14 @@ Sistem Manajemen Surat adalah aplikasi web yang dirancang untuk mengelola surat 
 
 - **Autentikasi**: Login untuk admin dan pengguna.
 - **Manajemen Surat**: Tambah, hapus, dan setujui surat.
-- **Upload File**: Mengunggah surat dengan drag-and-drop menggunakan Dropzone.js.
+- **Upload File**: Mengunggah surat pada halaman user
 - **Paginasi**: Menampilkan surat dengan paginasi untuk mempermudah navigasi.
-- **Dashboard Terpisah**: Dashboard untuk admin dan pengguna dengan hak akses berbeda.
+- **Dashboard Terpisah**: Dashboard untuk admin dan user dengan hak akses berbeda.
 - **Sidebar**: Sidebar navigasi untuk akses cepat ke fitur utama.
 
 ## Persyaratan
 
-- PHP 7.4 atau lebih baru
+- PHP 8.2 atau lebih baru
 - MySQL 5.7 atau lebih baru
 - XAMPP atau server web serupa
 - Composer (untuk mengelola dependensi PHP)
