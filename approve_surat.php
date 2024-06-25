@@ -13,8 +13,7 @@ include('database/db.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['approve'])) {
     $letter_id = $_POST['letter_id'];
-    
-    // Retrieve letter information
+
     $sql = "SELECT division_id, date_created FROM letters WHERE id='$letter_id'";
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($result);
@@ -24,20 +23,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['approve'])) {
     $month = date('m', strtotime($date_created));
     $year = date('Y', strtotime($date_created));
 
-    // Get division name
+    // mengambil data nama divisi
     $sql = "SELECT name FROM division WHERE id='$division_id'";
     $result = mysqli_query($conn, $sql);
     $division = mysqli_fetch_assoc($result)['name'];
 
-    // Count existing letters in the same month and year
     $sql = "SELECT COUNT(*) as count FROM letters WHERE division_id='$division_id' AND YEAR(date_created)='$year' AND MONTH(date_created)='$month'";
     $result = mysqli_query($conn, $sql);
     $count = mysqli_fetch_assoc($result)['count'] + 1;
 
-    // Generate letter number
+    // Generate nomor surat
     $letter_number = sprintf("%03d/%s/%02d/%04d", $count, $division, $month, $year);
 
-    // Update letter status and number
+    // Update surat status dan nomor
     $sql = "UPDATE letters SET status='approved', letter_number='$letter_number' WHERE id='$letter_id'";
     if (mysqli_query($conn, $sql)) {
         header("Location: admin_dashboard.php");
